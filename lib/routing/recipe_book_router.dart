@@ -12,7 +12,7 @@ void recipeBookRouteInitializer(Router router, RouteViewFactory views) {
         mount: {
           'view': ngRoute(
               path: '/view',
-              view: '<view-recipe recipe-map="recipeMap"></view-recipe>'
+              viewHtml: '<view-recipe recipe-map="recipeMap"></view-recipe>'
           ),
           'edit': ngRoute(
               path: '/edit',
