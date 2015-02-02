@@ -1,0 +1,21 @@
+name: angulardart_simple_module
+description: >
+  A library useful for applications or for sharing on pub.dartlang.org.
+version: 0.0.1
+author: <Andrés Amado> <andres@uppoints.com>
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dependencies:
+  angular: any
+  web_components: ">=0.8.0 <0.9.0"
+  browser: any
+dev_dependencies:
+  unittest: ">=0.11.0+5 <0.12.0"
+  mock: ">=0.11.0+2 <0.12.0"
+transformers:
+- angular:
+    html_files:
+      - lib/component/recipe_book.html
+      - lib/component/rating.html
+      - lib/component/search_recipe.html
+      - lib/component/view_recipe.html
